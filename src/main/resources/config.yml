@@ -1,0 +1,13 @@
+# Who can use the debug stick
+#   op       : players with the debugstick.use permission, which operators have (default)
+#   creative : anyone in creative mode
+#   everyone : anyone in any game mode
+access: op
+
+# Message language
+#   en   : English (default)
+#   ja   : Japanese / 日本語
+#   auto : each player's game language (falls back to English)
+#
+# Messages are in the lang folder. Copy lang/en.yml to e.g. lang/fr.yml to add a language.
+language: en

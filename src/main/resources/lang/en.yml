@@ -1,0 +1,12 @@
+# Use & for color codes (e.g. &c for red)
+item:
+  name: "&bDebug Stick"
+  lore:
+    - "&7Left click: select property"
+    - "&7Right click: change value"
+    - "&7Sneak to reverse"
+message:
+  player-only: "This command can only be used in game."
+  creative-only: "&cUse it in creative mode."
+  no-permission: "&cYou do not have permission to use the debug stick."
+  inventory-full: "&cYour inventory is full."

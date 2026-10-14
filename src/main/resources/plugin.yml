@@ -1,0 +1,15 @@
+name: DebugStick
+main: byakkono.debugstick.DebugStickPlugin
+version: "${project.version}"
+api: "3.0.0"
+author: Byakkono
+description: "Java Edition style debug stick for PowerNukkitX"
+website: https://github.com/Byakkono/DebugStick
+commands:
+  debugstick:
+    description: "Get a debug stick"
+    usage: "/debugstick"
+permissions:
+  debugstick.use:
+    default: op
+    description: "Allows the user to get and use the debug stick when access is op"
